@@ -7,13 +7,13 @@ _We will correct these exercises in class._
 ```js
 // Look at these expressions below and determine whether they evaluate to true or false
 
-1. true || false
-2. false && false
-3. 1 < 2 && 2 > 1
-4. 31 < 13 || 1 < 2 && 3 > 1
-5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31)
-6. true && false && false || false && true
-7. true && false || true || false
+1. true || false) - True
+2. false && false - False
+3. 1 < 2 && 2 > 1 - True
+4. 31 < 13 || 1 < 2 && 3 > 1 - True
+5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31) - True
+6. true && false && false || false && true - False
+7. true && false || true || false - True
 8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1
 ```
 
@@ -27,9 +27,9 @@ Given this data structure:
 let data = [0, [], [], [1, 2, 3, [4]]];
 ```
 
-1. How would you access the value `0`?
-2. How would you access the value `3`?
-3. How would you access the value `4`?
+1. How would you access the value `0`? data[0]
+2. How would you access the value `3`? data[3][2] - you want the item 3 from data from it too - index from data
+3. How would you access the value `4`? data[3][3][0]
 
 ---
 

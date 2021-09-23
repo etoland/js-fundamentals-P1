@@ -6,6 +6,7 @@ function exercise6_1() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
