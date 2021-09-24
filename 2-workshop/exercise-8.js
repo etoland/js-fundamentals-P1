@@ -7,7 +7,12 @@ function exercise8() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
+  let sum =0;
+  for(let x=0; x<=5000; x++){
+    if(x%4===0){
+      sum+=x
+    }
+  }
   console.log(`The sum is ${sum}`);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
@@ -22,4 +27,4 @@ function exercise8() {
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-8
 
-module.exports = exercise8;
+module.exports = exercise8

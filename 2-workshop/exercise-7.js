@@ -23,6 +23,16 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let hour = 0; hour <= 23; hour++){
+    if (5>=hour || hour>=22) {
+      console.log("Its " + hour + "h."+ "Time to Sleep!");
+    } else if (6==hour||hour==12||hour==18){
+      console.log("Its " + hour + "h" + "Time to Eat");
+      } 
+      else {
+      console.log("Its " + hour + "h" + "Time to Train");
+    }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -36,4 +46,4 @@ function exercise7() {
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-7
 
-module.exports = exercise7;
+module.exports = exercise7
