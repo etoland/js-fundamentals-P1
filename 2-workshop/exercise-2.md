@@ -163,3 +163,5 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 3. console.log('Array includes the number!')
 9. }
 ```
+
+NOTE
