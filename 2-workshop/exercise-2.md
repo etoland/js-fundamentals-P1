@@ -109,7 +109,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. const reversedString = reversedArray.join('');
 
 ```
-
+5. if (reversedString.includes('treasure')) {
+7. const reversedString = reversedArray.join('');
+1. const reversedArray = letterArray.reverse();
+3. const letterArray = encodedMessage.split('');
+4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+2. console.log('Your message:', reversedString)
+6. }
 
 ```
 
@@ -124,7 +130,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. }
 
 ```
-// Your solution here!
+2. while (count > 0) {
+6. let count = 10;
+4. count = count - 1;
+3. let total = 0;
+1. total = total + count;
+5. console.log('The total is:', total)
+7. }
 
 ```
 
@@ -141,6 +153,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 9. }
 
 ```
-// Your solution here!
-
+1. }
+4. for (let i = 0; i < array.length; i++) {
+6. if (item === numberToSearchFor) {
+5. let item = array[i];
+2. let includesNumber;
+7. let numberToSearchFor = 5;
+8. let array = [1, 3, 7, 4, 5, 2, 1];
+3. console.log('Array includes the number!')
+9. }
 ```
